@@ -36,7 +36,7 @@
  */
 
     #define DL_DEFAULT		 1			// Use default settings
-    #define DL_FOLDER_NAME   "adaf-dll"	// Folder name
+    #define DL_FOLDER_NAME   ""	// Folder name
     #define DL_NO_FOLDER     0			// Load DLL directly from Geometry Dash directory
     #define DL_DLL_BASE		 0			// Use DLL directory as base path
     #define DL_CREATE_FOLDER 1			// Create a folder if it doesn't exist
@@ -63,7 +63,7 @@
 
     #if		DL_DEFAULT    == 1
         #undef	DL_FOLDER_NAME, DL_NO_FOLDER, DL_DLL_BASE, DL_CREATE_FOLDER, DL_USE_PREFIX, DL_PREFIX
-        #define DL_FOLDER_NAME   "adaf-dll"
+        #define DL_FOLDER_NAME   "mods"
         #define DL_NO_FOLDER     0			
         #define DL_DLL_BASE		 0			
         #define DL_CREATE_FOLDER 1			
